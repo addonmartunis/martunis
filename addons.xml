@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="black" name="[COLOR orange]Black.Build(Kodi 17)[/COLOR]" version="0.2" provider-name="[COLOR wite]Ike[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Black.Build</summary>
+    <description lang="en">Black.Build</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="emi" name="[COLOR cyan]Eminence.Build.Ike (Kodi 17)[/COLOR]" version="1.0.2" provider-name="[COLOR wite]Ike[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Emi</summary>
+    <description lang="en">Emi</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="frenchdj.repository" name="frenchdj repository" version="0.0.1" provider-name="frenchdj">
+	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
+		<info compressed="false">http://raw.github.com/frenchdj/frenchdj.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/frenchdj/frenchdj.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/frenchdj/frenchdj.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>frenchdj Addon</summary>
+		<description>frenchdj addons repositorio</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="mimic" name="[COLOR cyan]Mimic.Build.Ike(Kodi 18)[/COLOR]" version="0.2" provider-name="[COLOR wite]Ike[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">mimic</summary>
+    <description lang="en">mimic</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="p2p.ike" name="[COLOR cyan]P2p.Fix.ike[/COLOR]" version="1.0.3" provider-name="[COLOR wite]Ike[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">P2p.Fix</summary>
+    <description lang="en">P2p.Fix</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="pellucid" name="[COLOR cyan]Pellucid.Build.Ike(Kodi 17)[/COLOR]" version="0.1" provider-name="[COLOR wite]Ike[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">pellucid</summary>
+    <description lang="en">pellucid</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.advancedsettings"
+       name="Easy Advanced Settings"
+       version="0.8.9"
+       provider-name="kinkin+Ike">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>video executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Create, view, edit and delete your advancedsettings.xml file in a user-friendly gui</summary>
+        <description>Fix Buffer Em Kodi
+
+Valores :
+Cachemembuffersize: 157286400
+
+Buffermode  : 1
+
+Readbufferfactor : 20</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GNU GENERAL PUBLIC LICENSE</license>
+        <forum></forum>
+        <website></website>
+        <source></source>
+        <email></email>
+    </extension>
+
+</addon>
+
+<addon id="plugin.program.ike.clean"
+       name="Ike.Clean"
+       version="1.2"
+       provider-name="Ike">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+ 	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>ManutenÃ§Ã£o</summary>
+    <description>Programa para uso exclusivo do Addon Ike.
+	Ezy-Fork</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.script.afestaajedrez" name="[COLOR lime]AJEDREZ FESTA[/COLOR]" version="0.0.2" provider-name="FESTA ADDONS lourdes y picapau(addonfesta@gmail.com)">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">ajedrez para Kodi</summary>
+        <description lang="en">juega al ajedrez en kodi! juego traducido al castellano. CREADO POR TOM C. SCHEPER Y MODIFICADO POR ADDONS FESTA, LOURDES Y PICAPAU.
+        </description>
+        <license>All rights reserved</license>
+        <language></language>
+        <forum></forum>
+        <source>https://github.com/tomcss/script.chess</source>
+        <email>addonfesta@gmail.com</email>
+    </extension>
+</addon>
+
+<addon
+	id="plugin.video.arenavisionezy"
+	name="ArenaVision EZY"
+	version="1.2.1"
+	provider-name="Wazzu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="program.plexus" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>ArenaVision EZY</summary>
+		<description>Interfaz para ArenaVision</description>
+		<platform>all</platform>
+		<license/>
+		<forum/>
+		<website/>
+		<email>egrueda@gmail.com</email>
+		<source/>
+	</extension>
+	<extension point="xbmc.addon.repository" name="ArenaVision EZY">
+		<info compressed="false">https://avezy.tk/repo/addons.xml</info>
+		<checksum>https://avezy.tk/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://avezy.tk/repo/zip/</datadir>
+	</extension>
+</addon>
+
+<addon id="plugin.video.avezy" name="AvEZY" version="1.4.1" provider-name="Wazzu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="program.plexus" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AvEZY</summary>
+		<description>Interfaz para ArenaVision desarrollado por Wazzu</description>
+		<platform>all</platform>
+		<license/>
+		<forum/>
+		<website/>
+		<email>egrueda@gmail.com</email>
+		<disclaimer>El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida.</disclaimer>
+		<source/>
+	</extension>
+	<extension point="xbmc.addon.repository" name="AvEZY">
+		<info compressed="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/zip/</datadir>
+	</extension>
+</addon>
+
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.8" provider-name="natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+    	<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />
+
+
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Just a castaway.</summary>
+		<description lang="en">Visit TVADDONS.ag for support.
+		</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.diskokosmiko"
+       name="DiskoKosmiko"
+       version="2.0.2"
+       provider-name="fightnight">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="2.6.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Coontenidos de DiskoKosmiko en Kodi</summary>
+        <description>Todos los contenidos de la comunidad DiskoKosmiko en Kodi.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.f4mTester" version="2.2.4" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.2.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.live.ike"
+       name="[COLOR orange][B]IKE.VIP[/B][/COLOR]"
+       version="0.1"
+       provider-name="[COLOR red][B]IKE [COLOR gold]SANTOS[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="repository.kodil" version="1.2"/>
+	<import addon="repository.kodibae" version="1.0.0"/>
+	<import addon="repository.aenemapy" version="2018.01.04.2"/>
+	<import addon="repository.CanalNereo" version="1.0.2"/>
+	<import addon="repository.jesusboxtv" version="1.0.5"/>
+	<import addon="repository.blamo" version="0.1.3"/>
+	<import addon="repository.illuminati" version="1.2.1"/>
+	<import addon="frenchdj.repository" version="0.0.1"/>
+	<import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+     <extension point="xbmc.addon.repository" name="repository.ikebit">
+		<info compressed="false">https://bitbucket.org/ikesantos/ike/raw/af0e3cccc2d3bc2f6f1507298e8c86eab3546abd/addons.xml</info>
+		<checksum>https://bitbucket.org/ikesantos/ike/raw/af0e3cccc2d3bc2f6f1507298e8c86eab3546abd/addons.xml.md5</checksum>
+		<datadir zip="true">https://bitbucket.org/ikesantos/ike/raw/master/repo/</datadir>
+	</extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR lime][B]Ike Addon[/B][/COLOR]</summary>
+    <description>
+        [COLOR lime][B]Addon Ike : Todos os links disponibilizados no Addon estao disponiveis
+em procura livre na internet..
+Canal do Youtube ;Procurar Por Ike Santos
+ Enjoy !![/B][/COLOR]
+
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.p2psport"
+	name="[COLOR green]p2psport[/COLOR]"
+	version="0.1.4"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.mechanize" version="0.2.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch p2p sports in Kodi</summary>
+    <platform>all</platform>
+    <forum>forums.tvaddons.ag</forum>
+  </extension>
+</addon>
+
+<addon id="plugin.video.plexus-streams"
+       name="Plexus-Streams"
+       version="1.0.15o"
+       provider-name="D4FC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.pytz" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.mechanize" version="0.2.6"/>
+    <import addon="program.plexus" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Plexus wrapper</summary>
+    <description lang="en">P2P-Streams fork that works as a Plexus wrapper</description>
+    <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.quertv" name="QuerTv" version="1.0.1" provider-name="QuerTv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TV Online</summary>
+    <description lang="en">TV ONLINE QuerTv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.rtpplay" name="RTP Play" version="2.5.6" provider-name="enen92">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>pt</language>
+    <platform>all</platform>
+    <summary lang="en">RTP Play addon for kodi</summary>
+    <summary lang="pt">RTP Play addon para o Kodi</summary>
+    <description lang="en">RTP Play live and on-demand broadcasts (radio and tv).</description>
+    <description lang="pt">EmissÃµes em directo (RÃ¡dio e TV) e On-Demand da RTP Play (rÃ¡dio e tv).</description>
+    <disclaimer lang="pt">Plugin independente e de cÃ³digo aberto nÃ£o produzido pela rtp</disclaimer>
+    <disclaimer lang="en">Independent and opensource plugin not endorsed by RTP</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=154645</forum>
+    <source>https://github.com/enen92/plugin.video.RTPPlay-XBMC</source>
+    <website>http://www.rtp.pt/play</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="2018.04.11"
+  name="SportsDevil"
+  provider-name="SportsDevil">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
+   <import addon="script.module.requests" />
+   <import addon="script.module.streamlink.base" />
+   <import addon="plugin.video.f4mTester" />
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service/streamlink_proxy.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportsDevil addon</summary>
+    <description lang="en">Play videos of different ad-financed sports streaming sites.</description>
+	<disclaimer lang="en">SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvgolo"
+       name="OKGoals"
+       version="1.0.6"
+       provider-name="fightnight">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="1.0.5"/>
+		<import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<language>pt</language>
+		<platform>all</platform>
+		<source>https://github.com/fightnight/fightnight-addons/tree/master/plugin.video.tvgolo</source>
+		<summary lang="en">OKGoals addon for Kodi</summary>
+		<summary lang="pt">OKGoals addon para o Kodi</summary>
+		<description lang="en">The best goals from OKGoals.com on Kodi.</description>
+		<description lang="pt">Os melhor golos do OKGoals.com para o Kodi.</description>
+		<disclaimer lang="en">Independent and opensource addon not endorsed by OKGoals.</disclaimer>
+		<disclaimer lang="pt">Addon independente e opensource nÃ£o afliado com OKGoals.</disclaimer>
+    </extension>
+</addon>
+
+<addon id="plugin.video.tviplayer" name="TVI Kodi Player" version="0.2.0" provider-name="darksky83">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>pt</language>
+    <platform>all</platform>
+    <summary lang="en">TVI Player addon for kodi</summary>
+    <summary lang="pt">TVI Player addon para o Kodi</summary>
+    <description lang="en">TVI Player on-demand tv broadcasts.</description>
+    <description lang="pt">EmissÃµes em On-Demand da TVI Player.</description>
+    <disclaimer lang="pt">Plugin independente e de cÃ³digo aberto nÃ£o produzido pela TVI</disclaimer>
+    <disclaimer lang="en">Independent and opensource plugin not endorsed by TVI</disclaimer>
+    <source>https://github.com/darksky83/plugin.video.tviplayer</source>
+    <website>http://tviplayer.iol.pt/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvpor"
+       name="TV Portuguesa"
+       version="0.5.7"
+       provider-name="fightnight">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.pytz"/>
+		<import addon="script.module.urlresolver"  version="1.0.5"/>
+		<import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ver canais de TV portugueses e radios no KODI</summary>
+        <description>Ve os teus canais portugueses favoritos e ouve radios no KODI.
+
+O addon apenas inclui streams oficiais.</description>
+        <disclaimer>O autor deste addon NAO e responsavel pelo conteudo dos streams.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="program.plexus"
+       name="Plexus"
+       version="0.1.7"
+       provider-name="enen92, TVAddons, RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream for Kodi</summary>
+    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituÃ­da por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para vÃ¡rias plataformas.[CR][CR]DocumentaÃ§Ã£o: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus aÃ±ade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo que poderÃ¡ ser reproduzido a partir deste addon. Os autores nÃ£o tÃªm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fÃ³rum oficial do Kodi por favor respeite as regras do fÃ³rum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.aenemapy" name="Aenemapy Addons Repository" version="2018.01.04.2" provider-name="aenemapy">
+    <extension point="xbmc.addon.repository" name="Aenemapy Addons Repository">
+		<info compressed="false">https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Aenemapy repo</summary>
+        <description>This is just a repo...</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.3" provider-name="Mr Blamo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
+            <dir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
+            <hashes>false</hashes>
+			</dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+			<dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Official Repo for Mr Blamo</summary>
+            <description>The Official Repo for Mr Blamo</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
+
+<addon id="repository.CanalNereo" name="[COLOR lime]Repo Canal Nereo[/COLOR] Repo" version="1.0.2" provider-name="Canal Nereo">
+    <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Mi</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.ikevip" name="[COLOR gold][B]Ike.Vip.Repo[/B][/COLOR]" version="0.1" provider-name="[COLOR lime][B]IKE[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="repository.ikevip">
+		<info compressed="false">https://raw.githubusercontent.com/coccas/cocas/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/coccas/cocas/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/coccas/cocas/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR blue][B]IkeVip.Repo[/B][/COLOR]</summary>
+		<description>[COLOR red][B]Ikevip.Repo[/B][/COLOR]</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.2.1" provider-name="Illuminati Temple">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+	<extension point="xbmc.addon.repository" name="Illuminati">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+		    <info compressed="false">http://theunjudged.xyz/Repo/addons.xml</info>
+		    <checksum>http://theunjudged.xyz/Repo/addons.xml.md5</checksum>
+		    <datadir zip="true">http://theunjudged.xyz/Repo/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Home of 3rd party addons</summary>
+		<description lang="en">The developers do not own any content found within these addons. They are in no way affiliated with Kodi or XBMC.</description>
+            <platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.jesusboxtv" name="Jesusbox Repository" version="1.0.5" provider-name="Jesusbox">
+	<extension point="xbmc.addon.repository" name="Jesusbox Repository">
+		<info compressed="false">https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jesusboxrepo/repository/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Welcome to the Jesusbox Repository where you will find all Jesusbox produced Addon-ons and wizards</summary>
+		<description>The Best Media Center Box Available</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="1.0.0" provider-name="kodibae">
+    <extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Addons for Kodi</summary>
+        <description>Would you care for some salt with that fork?</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.kodil" name="[COLOR blue]Kodisrael[/COLOR][COLOR white]Repository[/COLOR]" version="1.2" provider-name="kodil">
+    <extension point="xbmc.addon.repository" name=".Kodisrael  Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+        <checksum>http://www.lvtvv.com/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodisrael repository</summary>
+        <description>kodisrael repository - the most extensive repository in israel </description>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
+	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
+		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+		<platform>all</platform>
+                <forum>https://www.tvaddons.co/forums</forum>
+                <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+
+<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory" version="4.2.0" provider-name="XvBMC Nederland">
+    <extension point="xbmc.addon.repository" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+            <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Look-and-Feel/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Look-and-Feel/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Look-and-Feel/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/zips/</datadir>
+            <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">XvBMC The Netherlands (Add-ons) REPOsitory #DUTCH #NL</summary>
+        <summary lang="nl">XvBMC Nederland (Add-ons) REPOsitory #NL #DUTCH</summary>
+        <description lang="en">XvBMC The Netherlands (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  be sure to check out our FB-page: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+        <description lang="nl">XvBMC Nederland (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  en volg zeker ook onze Facebook pagina: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+        <disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+        <disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>https://www.fb.com/groups/XvBMCnederland/</forum>
+        <website>http://bit.ly/XvBMC-NL</website>
+        <source>https://archive.org/download/repository.xvbmc/</source>
+        <news>Release v4.2.0</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="resource.uisounds.halloween" version="1.0.1" name="Hallowe'en UI Sounds" provider-name="ClassicNancy">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Hallowe'en UI Sounds</summary>
+	<summary lang="pt_br">Interface de son da skin Hallowe'en</summary>
+    <description lang="en">Hallowe'en UI Sounds</description>
+	<description lang="pt_br">Interface de son da skin Hallowe'en.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.game.connect4"
+       version="0.2.0" name="[COLOR lime]FESTA CONECTA[/COLOR]"
+       provider-name="The[COLOR lime]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.metahandler" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable game video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Game - Connect 4</summary>
+  	<description>Game - Connect 4.  Currently for 2 human players.  Users a 720p .xml skin file.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum></forum>
+  	<website></website>
+  	<email></email>
+  </extension>
+</addon>
+
+<addon id="script.ike.pairwith"
+  name="Ike Pair"
+  version="5.2"
+  provider-name="Ike">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Ike Pair</summary>
+    <description lang="en">Ike Pair</description>
+	<disclaimer>Ike Pair</disclaimer>
+  </extension>
+</addon>
+
+<addon id="script.module.deceit-livenet" name="Deceit LiveNet Tv" version="1.3" provider-name="Deceit">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cloned for Deciet users from RACC Live NetTv Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for Live NetTv Apk</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.deceit-mobdro" name="Deceit Mobdro" version="1.4" provider-name="Deceit">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cloned for Deceit users from RACC Mobdro Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for Mobdro APK</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.deceit-swiftstreamz" name="Deceit Swift Streamz" version="1.3" provider-name="Deceit">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cloned for Deceit users from RACC SwiftStreamz Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for SwiftStreamz APK</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.quasar.burst" name="Quasar [COLOR FFFF6B00]Burst[/COLOR]" version="0.5.10" provider-name="scakemyer">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.quasar" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.script" library="burst.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Quasar torrents provider</summary>
+        <description lang="en">Quasar Burst is a lean and mean multi-provider for Quasar.</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.
+        </disclaimer>
+        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
+        <website>https://burst.surge.sh</website>
+        <source>https://bitbucket.org/scakemyer/script.quasar.burst</source>
+        <forum>TODO</forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="service.ike.autosubs"
+    name="Ike AutoSubs" version="1.0" provider-name="Ike">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="login" />
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Auto Search for Subtitles on Play</summary>
+    <description lang="en">Auto Search for Subtitles on Playback start if no subs are found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+    <summary lang="pt">Pesquisa AutomÃ¡tica por legendas no Play</summary>
+    <description lang="pt">Pesquisa AutomÃ¡tica por legendas na reproduÃ§Ã£o se nÃ£o existirem legendas.[CR][CR]CrÃ©ditos dos icons vÃ£o para zNET Computer Solutions http://www.znetcs.pl</description>
+    <platform>all</platform>
+    <language>pt</language>
+  </extension>
+</addon>
+</addons>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.martunis" name="[COLOR green][B]Martunis.Repo[/B][/COLOR]" version="0.1" provider-name="[COLOR lime][B]IKE[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="repository.martunis">
+		<info compressed="false">https://raw.githubusercontent.com/coccas/cocas/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/coccas/cocas/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/coccas/cocas/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR blue][B]Martunis.Repo[/B][/COLOR]</summary>
+		<description>[COLOR red][B]Martunis.Repo[/B][/COLOR]</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
